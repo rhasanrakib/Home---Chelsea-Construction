@@ -1,0 +1,75 @@
+@import'utilities.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* logo area  */
+.logo_container {
+	height: 69px;
+    width: 40px;
+    margin: 0 auto;
+}
+.logo_link{
+    align-items: center;
+}
+
+#logo{
+    max-height: 55%;
+    transition: all .4s ease-in-out;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+}
+
+/* nav area  */
+#nav_area{
+    line-height: 25px;
+}
+.custom_nav{
+    padding: 0.1rem 1rem;
+    border-radius: 10px;
+}
+.custom_ul li{
+    padding: 0 0.5rem;
+    line-height: 23px;
+}
+#nav_ul li a{
+    color: #0c1e3e;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 100%;
+}
+#nav_ul li a:hover{
+    opacity: .7;
+    transition: all .4s ease-in-out;
+}
+
+#toggle_icon{
+   font-size: 1.5rem;
+   font-weight: bolder;
+   color: #0c1e3e;
+   width: 2em;
+   height: 1em;
+}
+
+/* page divider */
+.et_pb_bottom_inside_divider {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMwMTFlNDEiPjxwYXRoIGQ9Ik0wIDB2MTQwaDEyODBMMCAweiIvPjwvZz48L3N2Zz4=);
+	background-size: 100% 100px;
+	bottom: 0;
+	height: 100px;
+	z-index: 1;
+}
+
+/* footer */
+#footer{
+    background-color: #0c1e3e;
+}
+
+.major {
+	padding-bottom: 0.5em;
+	border-bottom: solid 2px rgba(255,255,255,.125);
+}
