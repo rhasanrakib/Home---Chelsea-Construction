@@ -117,6 +117,17 @@ body{
 	z-index: 1;
 }
 
+/* portfolio */
+#portfolio{
+    padding-top: 69px;
+    padding-bottom: 69px;
+    background-color: #f3f8ff !important;
+}
+.major_portfolio {
+	padding-bottom: 0.5em;
+	border-bottom: solid 2px rgba(12,30,62,.125);
+}
+
 /* contact */
 #contact{
     background-color: #0c1e3e;
