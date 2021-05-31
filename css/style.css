@@ -30,6 +30,7 @@ body{
 
 /* navbar */
 #header{
+    width: 100%;
     transition: all 0.3s ease;
     background-color: #fff;
 }
@@ -116,7 +117,15 @@ body{
 	height: 100px;
 	z-index: 1;
 }
-
+/* banner */
+#banner{
+    font-size: 0;
+    padding-top: 69px;
+}
+.galary{
+    width: 25%;
+    display: inline-block;
+}
 /* portfolio */
 #portfolio{
     padding-top: 69px;
