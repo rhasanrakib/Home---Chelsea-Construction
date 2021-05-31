@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: 'Questrial', sans-serif;
 }
@@ -96,6 +100,48 @@ body{
     padding-left: 15px;
     display: table-cell;
     vertical-align: top;
+}
+
+.cfas{
+    font-size: 40px;
+    padding: 5px 5px 0px 0px;
+}
+
+.large{
+    font-size: 14px;
+    background-color: rgba(243,248,255,0.23);
+    color: white;
+    border: transparent;
+}
+.contact_text{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+
+.submit-btn{
+    background-color: #011e41;
+    border: 2px solid #f3f8ff;
+    border-radius: 3px;
+    padding: 9px 20px;
+    color: #f3f8ff;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Questrial', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all .2s;
+}
+.submit-btn:hover{
+    padding: 8px 19px;
+    text-decoration: none;
+    transition: all .2s;
+    border-color: transparent;
+    color: #f3f8ff;
+    background-color: #4f6582;
 }
 
 /* footer */
