@@ -16,15 +16,22 @@ body{
 
 .btn{
     font-size: 14px;
-    /* background-color: #011e41;
-    border-color: #f3f8ff; */
     font-weight: normal;
     font-style: normal;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 1px;
     border-radius: 3px;
-    padding: 2em 7em;
+    padding: .3em 1em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    border: 2px solid transparent;
+    color: #f3f8ff !important;
+    background-color: #4f6582;
+    border-color: #011e41 !important;
 }
 /* custom scroll bar */
 ::-webkit-scrollbar {
@@ -141,6 +148,19 @@ body{
     font-size: 34px;
 }
 
+.service_card_body{
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    color: #fff;
+    line-height: 1em;
+    font-weight: 500;
+}
+
+.service_card_btn{
+    border-color: #fff;
+    color: #fff;
+}
+/* style="font-size: 18px; font-weight: 500; color: #ffffff;" */
+
 /* page divider */
 #page_divider{
     background-color: #0c1e3e;
@@ -170,6 +190,26 @@ body{
 /* approach */
 #approach{
     padding-top: 69px;
+    font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+}
+
+.aproach_heading{
+    color: #0c1e3e;
+    font-size: 34px;
+    font-weight: 600;
+}
+.approach_card_text{
+    line-height: 1em;
+    font-weight: 500;
+    color: #011e41 !important;
+    font-size: 22px;
+}
+
+.btn-aproach_last{
+    border-radius: 0px;
+    background-color:#0c1e3e;
+    border: 2px solid transparent!important;
+    color: #fff;
 }
 /* banner */
 #banner{
