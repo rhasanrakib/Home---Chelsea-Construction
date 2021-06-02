@@ -137,6 +137,34 @@ body{
     padding: 0 30px;
 }
 
+/* carusal */
+#home {
+    position: relative;
+    width: 100vw;
+}
+
+#home .carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home .middleImg {
+    max-width: 200px;
+    max-height: 200px;
+    z-index: 1;
+    position: absolute;
+    top: 30vh;
+    /*width: 50%;*/
+    left: 40vw;
+    
+}
+
+
 /* service */
 #service{
     padding-top: 69px;
@@ -159,7 +187,6 @@ body{
     border-color: #fff;
     color: #fff;
 }
-/* style="font-size: 18px; font-weight: 500; color: #ffffff;" */
 
 /* page divider */
 #page_divider{
