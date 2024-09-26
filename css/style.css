@@ -138,9 +138,12 @@ body{
 }
 
 /* carusal */
+
+
 #home {
     position: relative;
     width: 100vw;
+    height: 100vh;
 }
 
 #home .carousel-item {
@@ -153,18 +156,21 @@ body{
     background-size: cover;
 }
 
-#home .middleImg {
-    max-width: 200px;
-    max-height: 200px;
-    z-index: 1;
+#home .middleImgOverlay {
     position: absolute;
-    top: 30vh;
-    /*width: 50%;*/
-    left: 40vw;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
     
 }
-
-
+#home .middleImgOverlay img{
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0 auto;
+    top: 40%;
+    z-index: 1;
+}
 
 /* service */
 #service{
@@ -214,6 +220,26 @@ body{
 }
 .inside_divider{
     margin-bottom: -1px;
+}
+/*Divergent Top*/
+.pb_bottom_inside_divider {
+	background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmM2Y4ZmYiPjxwYXRoIGQ9Ik0wIDB2MTQwaDEyODBMMCAweiIvPjwvZz48L3N2Zz4=);
+	background-size: 100% 100px;
+	bottom: 0;
+	height: 100px;
+	z-index: 10;
+}
+.pb_bottom_inside_divider {
+	margin-bottom: -1px;
+}
+.pb_bottom_inside_divider, .pb_top_inside_divider {
+	display: block;
+	background-repeat-y: no-repeat;
+	position: absolute;
+	pointer-events: none;
+	width: 100%;
+	left: 0;
+	right: 0;
 }
 /* approach */
 #approach{
